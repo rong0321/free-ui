@@ -1,9 +1,6 @@
 <template>
   <div>
-    <div class="topNav">
-      <div class="logo"></div>
-      <div class="menu"></div>
-    </div>
+    <TopNav></TopNav>
     <div class="banner">
       <h1>free-ui</h1>
       <h2>一款免费的ui框架</h2>
@@ -16,6 +13,15 @@
   </div>
 </template>
 
+<script lang="ts">
+import TopNav from '../components/TopNav.vue'
+export default {
+  components: {
+    TopNav
+  }
+}
+</script>
+
 <style lang="less" scoped>
 .banner {
   min-height: 500px;
@@ -23,6 +29,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 60px;
 
   h1 {
     font-size: 64px;
