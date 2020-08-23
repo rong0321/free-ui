@@ -17,7 +17,7 @@ module.exports = {
     "vue/html-self-closing": "off",
     "vue/singleline-html-element-content-newline":"off",
     "vue/require-default-prop":"off",
-    "vue/max-attributes-per-line": ["error", {
+    "vue/max-attributes-per-line": ["off", {
       "singleline": 2,
       "multiline": {
         "max": 2,
